@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <section class="logo">
+        <a href="#home">
+          <img src="Image.jpg" alt="Elevate Clothing Logo" />
+          <p class="logo-text">Elevate Clothing</p>
+        </a>
+      </section>
+
+      <nav class="links">
+        <a href="#products">Products</a>
+        <div class="bar"></div>
+        <a href="#about">About</a>
+        <div class="bar"></div>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <section id="cart-icon" class="cart-container">
+        <div id="cartIconContainer" class="cart">
+          <img src="Shopping Cart.svg" alt="Cart" />
+          <div class="cart-item-count">2</div>
+        </div>
+      </section>
+
+      <section id="cart-popup" class="cart-popup">
+        <div class="item">
+          <img class="item-image" src="Clothing-1.jpg" alt="Item Image" />
+          <p class="item-name">Product</p>
+          <p class="size">Large</p>
+          <p class="quantity">2</p>
+          <img src="Delete.svg" alt="Delete Item" class="delete-item-btn" />
+        </div>
+        <div class="item">
+          <img class="item-image" src="Clothing-1.jpg" alt="Item Image" />
+          <p class="item-name">Product</p>
+          <p class="size">Medium</p>
+          <p class="quantity">1</p>
+          <img src="Delete.svg" alt="Delete Item" class="delete-item-btn" />
+        </div>
+        <div class="total-price">Total: $<span class="price">30.90</span></div>
+        <a href="#">
+          <button class="checkout-btn">
+            <p>Checkout</p>
+            <img src="Shopping Bag.svg" />
+          </button>
+        </a>
+      </section>
+    </header>
+
+    <main id="main" class="main">
+      <section id="home" class="home">
+        <h1 class="hero-text">
+          ELEVATE <br />
+          CLOTHING
+          <div class="clothing-img-container">
+            <img class="clothing-img" src="Clothing.svg" alt="Clothing" />
+          </div>
+        </h1>
+
+        <p class="slogan">Your No.1 Shopping Brand</p>
+      </section>
+
+      <section id="products">
+        <h2>Our Products</h2>
+        <div class="products-grid">
+          <div id="product1" class="product">
+            <img class="front" src="Clothing-1.jpg" alt="Product Image" />
+            <img class="back" src="Clothing-1 - Copy.jpg" alt="Product Image" />
+          </div>
+          <div id="product2" class="product">
+            <img class="front" src="Clothing-2.jpg" alt="Product Image" />
+            <img class="back" src="Clothing-2 - Copy.jpg" alt="Product Image" />
+          </div>
+          <div id="product3" class="product">
+            <img class="front" src="Clothing-3.jpg" alt="Product Image" />
+            <img class="back" src="Clothing-3 - Copy.jpg" alt="Product Image" />
+          </div>
+          <div id="product4" class="product">
+            <img class="front" src="Clothing-4.jpg" alt="Product Image" />
+            <img class="back" src="Clothing-4 - Copy.jpg" alt="Product Image" />
+          </div>
+          <div id="product5" class="product">
+            <img class="front" src="Clothing-5.jpg" alt="Product Image" />
+            <img class="back" src="Clothing-5 - Copy.jpg" alt="Product Image" />
+          </div>
+          <div id="product6" class="product">
+            <img class="front" src="Clothing-6.jpg" alt="Product Image" />
+            <img
+              on
+              class="back"
+              src="Clothing-6 - Copy.jpg"
+              alt="Product Image"
+            />
+          </div>
+          <div class="product cap product7">
+            <img class="cap-img" src="Cap-1.jpg" alt="Product Image" />
+          </div>
+          <div class="product cap product8">
+            <img class="cap-img" src="Cap-2.jpg" alt="Product Image" />
+          </div>
+        </div>
+        <div id="product-view-page" class="product-view-page">
+          <div class="main-product-view-page">
+            <img src="circle-xmark-regular.svg" alt="Close" class="close-btn" />
+            <div class="product-images">
+              <div id="product-image-container">
+                <img
+                  class="product-image"
+                  src="Clothing-1.jpg"
+                  alt="Product Image"
+                />
+              </div>
+              <div class="buttons">
+                <img
+                  id="productViewPagePrevbtn"
+                  src="angle-left-solid.svg"
+                  alt="Previous Image"
+                />
+                <img
+                  id="productViewPageNextbtn"
+                  src="angle-right-solid.svg"
+                  alt="Next Image"
+                />
+              </div>
+            </div>
+            <div class="info">
+              <h3 class="product-name">Product Name</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                excepturi porro suscipit impedit voluptatum. Voluptates
+                blanditiis voluptas quod, ducimus tempore eum repellat quia,
+                cupiditate id ut deleniti praesentium sapiente velit?
+              </p>
+              <form class="selections" action="#">
+                <div class="sizes">
+                  <div>
+                    <input type="radio" required name="size" id="small" />
+                    <label for="size">Small</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="size" id="medium" />
+                    <label for="size">Medium</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="size" id="large" />
+                    <label for="size">Large</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="size" id="x-large" />
+                    <label for="size">X-large</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="size" id="2x-large" />
+                    <label for="size">2X-large</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="size" id="3x-large" />
+                    <label for="size">3X-Large</label>
+                  </div>
+                </div>
+
+                <div class="quantity">
+                  <label for="quantity">Quantity:</label>
+                  <select name="quantity" id="quantity-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+
+                <div class="add-to-cart-btn-container">
+                  <button class="add-to-cart-btn" type="submit">
+                    Add To Cart
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-contact">
+        <section id="about">
+          <h2>About Us</h2>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            provident similique facere inventore quas. Nostrum cupiditate quasi
+            explicabo quo accusamus! Hic porro corrupti iure accusamus explicabo
+            suscipit placeat consequatur et. Quas dicta fugiat earum, delectus
+            cumque rem sunt, laboriosam ea unde totam modi? Rerum ut
+            voluptatibus omnis animi nemo ratione? Ipsa deleniti dicta dolor
+            asperiores velit aperiam ipsam molestias magnam! Minus ea facilis
+            cupiditate. Libero dicta corporis sint nihil cum fuga temporibus
+            molestias maxime, laboriosam ratione. Esse placeat, unde
+            voluptatibus sit quas ut quaerat architecto illo itaque aliquid
+            optio eligendi.
+          </p>
+        </section>
+
+        <section id="contact" class="contact">
+          <h2>Connect With Us</h2>
+          <ul class="links">
+            <li class="phone">
+              <a href="tel:+123 456 789">
+                <img class="icon" src="Call.svg" alt="Call Us" />
+                +123 456 789
+              </a>
+            </li>
+            <li class="whatsapp">
+              <a href="#">
+                <img class="icon" src="whatsapp.png" alt="Whatsapp" />
+              </a>
+            </li>
+            <li class="snapchat">
+              <a href="#">
+                <img class="icon" src="Snapchat.ico" alt="Snapchat" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <p class="footer-text">Elevate Clothing - Establised 2025</p>
+    </footer>
+    <script type="module" src="products.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
